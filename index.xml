@@ -2,36 +2,36 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>月落的小窝</title>
-    <link>https://LingKongStars.github.io/</link>
+    <link>https://lingkongstars.github.io/</link>
     <description>Recent content on 月落的小窝</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Thu, 05 May 2022 00:18:23 +0800</lastBuildDate><atom:link href="https://LingKongStars.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 05 May 2022 00:18:23 +0800</lastBuildDate><atom:link href="https://lingkongstars.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Blog</title>
-      <link>https://LingKongStars.github.io/posts/blog/blog/</link>
+      <link>https://lingkongstars.github.io/posts/blog/blog/</link>
       <pubDate>Thu, 05 May 2022 00:18:23 +0800</pubDate>
       
-      <guid>https://LingKongStars.github.io/posts/blog/blog/</guid>
+      <guid>https://lingkongstars.github.io/posts/blog/blog/</guid>
       <description></description>
     </item>
     
     <item>
       <title>🤝友链</title>
-      <link>https://LingKongStars.github.io/links/</link>
+      <link>https://lingkongstars.github.io/links/</link>
       <pubDate>Sat, 06 Nov 2021 15:15:53 +0800</pubDate>
       
-      <guid>https://LingKongStars.github.io/links/</guid>
+      <guid>https://lingkongstars.github.io/links/</guid>
       <description>Sulv&amp;#39;s Blog一个记录技术、阅读、生活的博客名称： Sulv&amp;rsquo;s Blog 网址： https://www.sulvblog.cn 图标： https://www.sulvblog.cn/img/Q.gif 描述： 一个记录技术、阅读、生活的博客 秉承互换友链原则、文章定期更新、不能有太多广告、个人描述字数控制在15字内
 787018782</description>
     </item>
     
     <item>
       <title>🙋🏻‍♂️关于</title>
-      <link>https://LingKongStars.github.io/about/</link>
+      <link>https://lingkongstars.github.io/about/</link>
       <pubDate>Sat, 06 Nov 2021 14:57:28 +0800</pubDate>
       
-      <guid>https://LingKongStars.github.io/about/</guid>
+      <guid>https://lingkongstars.github.io/about/</guid>
       <description> 英文名: Kevin Xu 职业: 程序员 运动: 跑步、乒乓球、爬山 </description>
     </item>
     
