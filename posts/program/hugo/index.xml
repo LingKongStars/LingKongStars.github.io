@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>月落的小窝</title>
-    <link>https://lingkongstars.github.io/</link>
-    <description>Recent content on 月落的小窝</description>
+    <title>Hugo on 月落的小窝</title>
+    <link>https://lingkongstars.github.io/posts/program/hugo/</link>
+    <description>Recent content in Hugo on 月落的小窝</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sat, 01 Jul 2023 15:29:43 +0800</lastBuildDate><atom:link href="https://lingkongstars.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 01 Jul 2023 15:29:43 +0800</lastBuildDate><atom:link href="https://lingkongstars.github.io/posts/program/hugo/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>使用hugo搭建属于你自己的博客</title>
       <link>https://lingkongstars.github.io/posts/program/hugo/hugo_help/</link>
@@ -40,9 +40,6 @@ Windows一般就选第二个
 打开hugo.yaml，修改配置，以下是我的配置(仅供参考，可以对照本博客)
 baseURL: https://www.example.com/ # 绑定的域名 languageCode: zh-cn # 语言 title: 月落的小窝 # 网页标题 theme: PaperMod # 主题名字，和themes文件夹下的一致 enableInlineShortcodes: true #允许内联短码 enableEmoji: true # 允许使用 Emoji 表情 enableRobotsTXT: true # 允许爬虫抓取到搜索引擎 params: profileMode: enabled: true title: &amp;#34; &amp;#34; # 首页图片下的文字 imageUrl: &amp;#34;/images/img.</description>
     </item>
-    
-    
-    
     
   </channel>
 </rss>

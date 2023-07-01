@@ -2,9 +2,28 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://lingkongstars.github.io/archives/</loc>
-  </url><url>
     <loc>https://lingkongstars.github.io/posts/</loc>
+    <lastmod>2023-07-01T15:29:43+08:00</lastmod>
+  </url><url>
+    <loc>https://lingkongstars.github.io/tags/hugo/</loc>
+    <lastmod>2023-07-01T15:29:43+08:00</lastmod>
+  </url><url>
+    <loc>https://lingkongstars.github.io/posts/program/hugo/</loc>
+    <lastmod>2023-07-01T15:29:43+08:00</lastmod>
+  </url><url>
+    <loc>https://lingkongstars.github.io/posts/program/hugo/hugo_help/</loc>
+    <lastmod>2023-07-01T15:29:43+08:00</lastmod>
+  </url><url>
+    <loc>https://lingkongstars.github.io/</loc>
+    <lastmod>2023-07-01T15:29:43+08:00</lastmod>
+  </url><url>
+    <loc>https://lingkongstars.github.io/posts/program/</loc>
+    <lastmod>2023-07-01T15:29:43+08:00</lastmod>
+  </url><url>
+    <loc>https://lingkongstars.github.io/tags/</loc>
+    <lastmod>2023-07-01T15:29:43+08:00</lastmod>
+  </url><url>
+    <loc>https://lingkongstars.github.io/archives/</loc>
   </url><url>
     <loc>https://lingkongstars.github.io/search/</loc>
   </url><url>
@@ -14,12 +33,6 @@
   </url><url>
     <loc>https://lingkongstars.github.io/posts/blog/</loc>
   </url><url>
-    <loc>https://lingkongstars.github.io/</loc>
-  </url><url>
     <loc>https://lingkongstars.github.io/posts/game/</loc>
-  </url><url>
-    <loc>https://lingkongstars.github.io/posts/program/</loc>
-  </url><url>
-    <loc>https://lingkongstars.github.io/tags/</loc>
   </url>
 </urlset>
