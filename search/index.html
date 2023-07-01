@@ -11,8 +11,8 @@
 <meta name="author" content="">
 <link rel="icon" href="https://lingkongstars.github.io//images/icon-32.png" sizes="32x32">
 <link rel="canonical" href="https://lingkongstars.github.io/search/">
-<link rel="stylesheet" type="text/css" href="/assets/css/stylesheet.bf5f9f73cf17311d52cedbcda82c922e91b2f566d88a85ad9f5b5a08b586bd5f.css">
-<link crossorigin="anonymous" href="/assets/css/stylesheet.bf5f9f73cf17311d52cedbcda82c922e91b2f566d88a85ad9f5b5a08b586bd5f.css" integrity="sha256-v1&#43;fc88XMR1SztvNqCySLpGy9WbYioWtn1taCLWGvV8=" rel="preload stylesheet" as="style"><link crossorigin="anonymous" rel="preload" as="fetch" href="../index.json">
+<link rel="stylesheet" type="text/css" href="/assets/css/stylesheet.bfaaf833c7f76aa45516ae4230d47ba7d501e0e264435c0115eb1b4a5902471a.css">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.bfaaf833c7f76aa45516ae4230d47ba7d501e0e264435c0115eb1b4a5902471a.css" integrity="sha256-v6r4M8f3aqRVFq5CMNR7p9UB4OJkQ1wBFesbSlkCRxo=" rel="preload stylesheet" as="style"><link crossorigin="anonymous" rel="preload" as="fetch" href="../index.json">
 <script defer crossorigin="anonymous" src="/assets/js/search.c96efee53dc2fcd4e3bdb71a6ab564028a36f4c0bbdfbfc8480c089fdfa274cd.js" integrity="sha256-yW7&#43;5T3C/NTjvbcaarVkAoo29MC737/ISAwIn9&#43;idM0="></script>
 <link rel="icon" href="https://lingkongstars.github.io/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="https://lingkongstars.github.io/favicon-16x16.png">
@@ -73,6 +73,23 @@ var _hmt = _hmt || [];
   s.parentNode.insertBefore(hm, s);
 })();
 </script>
+<script>
+   
+  const body = document.querySelector("body");
+  const element = document.getElementById("g-pointer-1");
+  const element2 = document.getElementById("g-pointer-2");
+  const halfAlementWidth = element.offsetWidth / 2;
+  const halfAlementWidth2 = element2.offsetWidth / 2;
+  function setPosition(x, y) {
+    element2.style.transform = `translate(${x - halfAlementWidth2 + 1}px, ${y - halfAlementWidth2 + 1
+      }px)`;
+  }
+  body.addEventListener("mousemove", (e) => {
+    window.requestAnimationFrame(function () {
+      setPosition(e.clientX, e.clientY);
+    });
+  });
+</script>
 <meta property="og:title" content="🔍搜索" />
 <meta property="og:description" content="" />
 <meta property="og:type" content="article" />
@@ -131,6 +148,8 @@ var _hmt = _hmt || [];
 </head>
 
 <body class="list" id="top">
+<div id="g-pointer-1"></div>
+<div id="g-pointer-2" style="transform: translate(826px, 214px);"></div>
 <script>
     (function () {
         let  arr,reg = new RegExp("(^| )"+"change-themes"+"=([^;]*)(;|$)");
@@ -158,7 +177,9 @@ var _hmt = _hmt || [];
 <header class="header">
     <nav class="nav">
         <div class="logo">
-            <a href="https://lingkongstars.github.io/" accesskey="h" title="月落的小窝 (Alt + H)">月落的小窝</a>
+            <a href="https://lingkongstars.github.io/" accesskey="h" title="月落的小窝 (Alt + H)">
+            <img src="https://lingkongstars.github.io/images/img.jpg" alt="logo" aria-label="logo"
+                 height="35">月落的小窝</a>
             <div class="logo-switches">
                 <button id="theme-toggle" accesskey="t" title="(Alt + T)">
                     <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
@@ -196,6 +217,11 @@ var _hmt = _hmt || [];
             <li>
                 <a href="https://lingkongstars.github.io/posts" title="📚文章">
                 <span>📚文章</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://lingkongstars.github.io/tags" title="🔖标签">
+                <span>🔖标签</span>
                 </a>
             </li>
             <li>
