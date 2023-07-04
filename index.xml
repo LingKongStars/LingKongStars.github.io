@@ -6,7 +6,18 @@
     <description>Recent content on 月落的小窝</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sat, 01 Jul 2023 22:16:40 +0800</lastBuildDate><atom:link href="https://lingkongstars.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 04 Jul 2023 23:29:25 +0800</lastBuildDate><atom:link href="https://lingkongstars.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ChatGPT和NewBing国内使用</title>
+      <link>https://lingkongstars.github.io/posts/program/ai/</link>
+      <pubDate>Tue, 04 Jul 2023 23:29:25 +0800</pubDate>
+      
+      <guid>https://lingkongstars.github.io/posts/program/ai/</guid>
+      <description>ChatGPT ChatGPT
+NewBing NewBing
+以上链接点击即可访问</description>
+    </item>
+    
     <item>
       <title>推书|进化的四十六亿重奏</title>
       <link>https://lingkongstars.github.io/posts/blog/book_jhd46ycz/</link>
@@ -41,10 +52,10 @@
     
     <item>
       <title>使用hugo搭建属于你自己的博客</title>
-      <link>https://lingkongstars.github.io/posts/program/hugo/hugo_help/</link>
+      <link>https://lingkongstars.github.io/posts/program/hugo_help/</link>
       <pubDate>Sat, 01 Jul 2023 15:29:43 +0800</pubDate>
       
-      <guid>https://lingkongstars.github.io/posts/program/hugo/hugo_help/</guid>
+      <guid>https://lingkongstars.github.io/posts/program/hugo_help/</guid>
       <description>使用hugo搭建个人博客 1. 环境配置 下载git 选择适合你系统的版本下载
 Windows一般就选第二个
 注册github账号
