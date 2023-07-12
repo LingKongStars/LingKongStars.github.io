@@ -6,7 +6,28 @@
     <description>Recent content on 月落的小窝</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Tue, 04 Jul 2023 23:29:25 +0800</lastBuildDate><atom:link href="https://lingkongstars.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 12 Jul 2023 19:18:20 +0800</lastBuildDate><atom:link href="https://lingkongstars.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>外网冲浪指南</title>
+      <link>https://lingkongstars.github.io/posts/program/net_felp/</link>
+      <pubDate>Wed, 12 Jul 2023 19:18:20 +0800</pubDate>
+      
+      <guid>https://lingkongstars.github.io/posts/program/net_felp/</guid>
+      <description>中国大陆外网访问教程 前言 私自访问外网并不合规，但只要不损害国家利益，不非法犀利，保持良好的自我判断，不被国外媒体洗脑，也不会有什么问题。
+如出现问题，作者概不负责。
+1. VPN下载 VPN是访问外网的必备工具，也叫梯子、魔法等
+VPN工具有很多，这里推荐安易。下载地址
+安易新账号注册可以有7天免费试用时间，但安易的账号注册使用邮箱且没有邮箱验证环节，只要邮箱格式正确就可以成功注册， 所以只要操作得当，就可以实现永久免费使用。邮箱生成器
+打开安易，点击中间的大按钮，待提示连接成功后就可以自由访问外网了
+2. Google账号注册 大部分国外网站的注册都可以用Google账号或苹果账号(Apple账号)， 如果你用的不是苹果的产品，就需要注册Google账号
+打开手机设置，在最底下找到Google服务，进入后按提示进行注册
+以后对Google账号的操作尽量在这里进行
+3. 访问外网 建议使用Google浏览器 或Edge浏览器
+twitter
+youtube
+pixiv</description>
+    </item>
+    
     <item>
       <title>ChatGPT和NewBing国内使用</title>
       <link>https://lingkongstars.github.io/posts/program/ai/</link>
