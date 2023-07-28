@@ -36,8 +36,8 @@ baseURL: https://www.example.com/ # 绑定的域名 languageCode: zh-cn # 语言
 <meta name="author" content="月落星沉">
 <link rel="icon" href="https://lingkongstars.github.io//images/icon.svg">
 <link rel="canonical" href="https://lingkongstars.github.io/posts/program/hugo_help/">
-<link rel="stylesheet" type="text/css" href="/assets/css/stylesheet.43e93102bff98edaeccd8d740ae381d909789df32d013d2bfa22265f97718ab4.css">
-<link crossorigin="anonymous" href="/assets/css/stylesheet.43e93102bff98edaeccd8d740ae381d909789df32d013d2bfa22265f97718ab4.css" integrity="sha256-Q&#43;kxAr/5jtrszY10CuOB2Ql4nfMtAT0r&#43;iImX5dxirQ=" rel="preload stylesheet" as="style">
+<link rel="stylesheet" type="text/css" href="/assets/css/stylesheet.6ea53acc1ccddeb869cb2ba61e3f0304cd9c19dd388dd0934b3d52fc796ba89f.css">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.6ea53acc1ccddeb869cb2ba61e3f0304cd9c19dd388dd0934b3d52fc796ba89f.css" integrity="sha256-bqU6zBzN3rhpyyumHj8DBM2cGd04jdCTSz1S/HlrqJ8=" rel="preload stylesheet" as="style">
 <script defer crossorigin="anonymous" src="/assets/js/highlight.acb54fd32bbc1982428b8850317e45d076b95012730a5936667e6bc21777692a.js" integrity="sha256-rLVP0yu8GYJCi4hQMX5F0Ha5UBJzClk2Zn5rwhd3aSo="
         onload="hljs.initHighlightingOnLoad();"></script>
 <link rel="icon" href="https://lingkongstars.github.io/favicon.ico">
@@ -311,7 +311,7 @@ baseURL: https://www.example.com/ # 绑定的域名 languageCode: zh-cn # 语言
         </ul>
     </nav>
 </header>
-<main class="main page">
+<main class="main page" id="main">
 <style>
     i[id*="post_meta_style"] {
         display: flex;
@@ -457,12 +457,15 @@ baseURL: https://www.example.com/ # 绑定的域名 languageCode: zh-cn # 语言
     const gap = parseInt(getComputedStyle(document.body).getPropertyValue('--gap'), 10);
 
     function checkTocPosition() {
-        const width = document.body.scrollWidth;
-        if (width - main - (toc * 2) - (gap * 4) > 0) {
+        const width = window.innerWidth;
+        if (width >= 1120) {
             document.getElementById("toc-container").classList.add("wide");
+            document.getElementById("main").classList.add("page");
         } else {
             document.getElementById("toc-container").classList.remove("wide");
+            document.getElementById("main").classList.remove("page");
         }
+        
     }
 
     function getOffsetTop(element) {
